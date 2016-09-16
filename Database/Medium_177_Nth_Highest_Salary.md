@@ -24,7 +24,7 @@ SET M=N-1;
       # Write your MySQL query statement below.
         select (
             select distinct Salary from Employee order by Salary Desc limit M,1
-        )as SecondHighestSalary
+        )as NthHighestSalary
   );
 END
 ```
