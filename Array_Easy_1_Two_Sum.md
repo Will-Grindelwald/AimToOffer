@@ -1,4 +1,4 @@
-# Array_Easy_1_Two Sum
+# Array_Easy_1_Two_Sum
 
 Date: 2016.9.12
 
