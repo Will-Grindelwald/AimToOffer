@@ -2,7 +2,7 @@
 
 Date: 2016.9.15
 
-[题目在这](https://leetcode.com/problems/combine-two-tables/)
+[题目在这](https://leetcode.com/problems/duplicate-emails/)
 
 Write a SQL query to find all duplicate emails in a table named Person.
 
