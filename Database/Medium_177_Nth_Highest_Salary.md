@@ -19,11 +19,11 @@ Accepted result:
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
 DECLARE M INT;
-SET M=N-1;
+SET M = N - 1;
   RETURN (
       # Write your MySQL query statement below.
         select (
-            select distinct Salary from Employee order by Salary Desc limit M,1
+            select distinct Salary from Employee order by Salary Desc limit M, 1
         )as NthHighestSalary
   );
 END
