@@ -25,10 +25,8 @@ Accepted result:
  */
 int* twoSum(int* nums, int numsSize, int target) {
     int *a = (int *)calloc(2, sizeof(int));
-    for (a[0] = 0; a[0] < numsSize; ++a[0])
-    {
-        for (a[1] = a[0] + 1; a[1] < numsSize; ++a[1])
-        {
+    for (a[0] = 0; a[0] < numsSize; ++a[0]) {
+        for (a[1] = a[0] + 1; a[1] < numsSize; ++a[1]) {
             if(a[0] == a[1]) continue;
             if((nums[a[0]] + nums[a[1]]) == target) goto L; // 因为只有一个解
         }
