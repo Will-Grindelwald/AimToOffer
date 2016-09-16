@@ -1,4 +1,4 @@
-# String_3_Longest_Substring_Without_Repeating_Characters
+# String_Easy_3_Longest_Substring_Without_Repeating_Characters
 
 Date: 2016.9.15
 
