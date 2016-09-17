@@ -1,4 +1,4 @@
-# Array_Easy_1_Rotate_Array
+# Array_Easy_189_Rotate_Array
 
 Date: 2016.9.17
 
