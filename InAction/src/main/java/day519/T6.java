@@ -26,21 +26,20 @@ import java.util.Scanner;
  */
 public class T6 {
 	public static void main(String[] args) {
+		int num;
+		int[] data;
 		try (Scanner in = new Scanner(System.in)) {
-			int num = in.nextInt();
-			int[] data = new int[3 * num];
+			num = in.nextInt();
+			data = new int[3 * num];
 			for (int i = 0; i < 3 * num; i++) {
 				data[i] = in.nextInt();
 			}
-			Arrays.sort(data);
-
-			int sum = 0;
-			int count = 0;
-			for (int i = data.length - 2; (i >= 0) && (count != num); i -= 2) {
-				sum += data[i];
-				count++;
-			}
-			System.out.println(sum);
 		}
+		Arrays.sort(data);
+		long sum = 0;
+		for (int i = num; i < data.length; i += 2) {
+			sum += data[i];
+		}
+		System.out.println(sum);
 	}
 }
