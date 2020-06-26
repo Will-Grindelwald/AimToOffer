@@ -1,6 +1,6 @@
 # String_Easy_3_Longest_Substring_Without_Repeating_Characters
 
-Date: 2016.9.15
+Date: 2020-06-26
 
 ## [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
@@ -76,6 +76,11 @@ cache maxLenth
 
 边界 case: 空串
 
+性能分析
+
+1. 时间: 两次遍历 O(2n)=O(n)
+1. 空间: hashSet O(n)
+
 看了 [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-jie-suan-fa-3-wu-zhong-fu-zi-fu-de-zui-chang-z/)
 我用了 set, 它用了 map, 省掉了我内嵌的那次 while, 赞👍
 
@@ -96,8 +101,3 @@ class Solution {
     }
 }
 ```
-
-性能分析
-
-1. 时间: 两次遍历 O(2n)=O(n)
-1. 空间: hashSet O(n)

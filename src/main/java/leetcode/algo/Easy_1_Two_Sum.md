@@ -12,8 +12,8 @@ Date: 2020-06-22
 
     给定 nums = [2, 7, 11, 15], target = 9
 
-    因为 nums[<strong>0</strong>] + nums[<strong>1</strong>] = 2 + 7 = 9
-    所以返回 [<strong>0, 1</strong>]
+    因为 nums[0] + nums[1] = 2 + 7 = 9
+    所以返回 [0, 1]
 
 Related Topics
 
@@ -23,10 +23,6 @@ Related Topics
 ## Accepted result:
 
 ```java
-import java.util.HashSet;
-import java.util.Map;
-
-// leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
     public int[] twoSum(int[] nums, int target) {
@@ -40,7 +36,6 @@ class Solution {
         throw new RuntimeException();
     }
 }
-// leetcode submit region end(Prohibit modification and deletion)
 ```
 
 ## 思路讲解

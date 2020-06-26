@@ -24,7 +24,6 @@ Related Topics
 ## Accepted result:
 
 ```java
-//leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,7 +63,6 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 ```
 
 ## 思路讲解
@@ -76,10 +74,15 @@ class Solution {
 * l1 == null or l2 == null
 * tmp != 0
 
-看了 [题解](https://leetcode-cn.com/problems/add-two-numbers/solution/hua-jie-suan-fa-2-liang-shu-xiang-jia-by-guanpengc/), 很好
+性能分析
+
+1. 时间: 一次遍历 O(max(n,m))=O(n)
+1. 空间: 常量 O(1)
+
+看了 [题解](https://leetcode-cn.com/problems/add-two-numbers/solution/hua-jie-suan-fa-2-liang-shu-xiang-jia-by-guanpengc/), 讲的很好
 小技巧：对于链表问题，返回结果为头结点时，通常需要先初始化一个预先指针 pre，该指针的下一个节点指向真正的头结点head。**使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。**
 
-```Java []
+```Java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -115,8 +118,3 @@ class Solution {
     }
 }
 ```
-
-性能分析
-
-1. 时间: 一次遍历 O(max(n,m))=O(n)
-1. 空间: 常量 O(1)
