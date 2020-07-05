@@ -1,4 +1,4 @@
-# String_Easy_3_Longest_Substring_Without_Repeating_Characters
+# Medium_3_Longest_Substring_Without_Repeating_Characters
 
 Date: 2020-06-26
 

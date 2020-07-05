@@ -1,4 +1,4 @@
-# Linked_List_Easy_2_Add_Two_Numbers
+# Medium_2_Add_Two_Numbers
 
 Date: 2020-06-26
 
